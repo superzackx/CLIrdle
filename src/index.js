@@ -724,6 +724,8 @@ let list = [
 function clirdleGame(){
 
 let word = list[Math.floor(Math.random() * list.length)];
+console.log("   ____ _     ___         _ _      \r\n  \/ ___| |   |_ _|_ __ __| | | ___ \r\n | |   | |    | || \'__\/ _` | |\/ _ \\\r\n | |___| |___ | || | | (_| | |  __\/\r\n  \\____|_____|___|_|  \\__,_|_|\\___|\n".rainbow)
+console.log("CLIrdle successfully loaded. A random 5 letter word has been selected.")
 let printTest = prompt("Enter word: ");
 while(printTest.length != 5) {
     printTest = prompt("Please enter a 5 letter word: ")
