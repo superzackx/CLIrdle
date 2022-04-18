@@ -744,22 +744,166 @@ let code = ReturnHints(copyWord, test);
 
 let gCount = 0;
 let turns = 0;
+
+let abc = [
+    {
+        letter: "A",
+        color: "Grey"
+    },
+    {
+        letter: "B",
+        color: "Grey"
+    },
+    {
+        letter: "C",
+        color: "Grey"
+    },
+    {
+        letter: "D",
+        color: "Grey"
+    },
+    {
+        letter: "E",
+        color: "Grey"
+    },
+    {
+        letter: "F",
+        color: "Grey"
+    },
+    {
+        letter: "G",
+        color: "Grey"
+    },
+    {
+        letter: "H",
+        color: "Grey"
+    },
+    {
+        letter: "I",
+        color: "Grey"
+    },
+    {
+        letter: "J",
+        color: "Grey"
+    },
+    {
+        letter: "K",
+        color: "Grey"
+    },
+    {
+        letter: "L",
+        color: "Grey"
+    },
+    {
+        letter: "M",
+        color: "Grey"
+    },
+    {
+        letter: "N",
+        color: "Grey"
+    },
+    {
+        letter: "O",
+        color: "Grey"
+    },
+    {
+        letter: "P",
+        color: "Grey"
+    },
+    {
+        letter: "Q",
+        color: "Grey"
+    },
+    {
+        letter: "R",
+        color: "Grey"
+    },
+    {
+        letter: "S",
+        color: "Grey"
+    },
+    {
+        letter: "T",
+        color: "Grey"
+    },
+    {
+        letter: "U",
+        color: "Grey"
+    },
+    {
+        letter: "V",
+        color: "Grey"
+    },
+    {
+        letter: "W",
+        color: "Grey"
+    },
+    {
+        letter: "X",
+        color: "Grey"
+    },
+    {
+        letter: "Y",
+        color: "Grey"
+    },
+    {
+        letter: "Z",
+        color: "Grey"
+    }
+]
+
+let colorKeyboard = ""
+let breaker = "\n"
+let stats = ""
+
+function compileKeyboard(arr){
+    colorKeyboard = ""
+    arr.forEach(letter => {
+        if(letter.color === "Grey"){
+            colorKeyboard = colorKeyboard + " " + ` ${letter.letter} `.bgBlack
+        } else if (letter.color === "Green") {
+            colorKeyboard = colorKeyboard + " " + ` ${letter.letter} `.bgGreen.black
+        } else if (letter.color === "Yellow") {
+            colorKeyboard = colorKeyboard + " " + ` ${letter.letter} `.bgYellow.black
+        } else {
+            colorKeyboard = colorKeyboard + " " + ` ${letter.letter} `.gray
+        }
+    })
+    
+}
+
 while (gCount < 5 && turns < 6) {
     gCount = 0;
     let i = 0;
+    let objIndex
+    let letterCopy
     printTest.forEach(letter => {
+        letterCopy = letter.toUpperCase();
         let colorCode = code[i]
         if(colorCode === "B"){
-            finalString = finalString + " " + `  ${letter}  `.bgBlack.white
+            objIndex = abc.findIndex((obj => obj.letter === letterCopy));
+            abc[objIndex].color = "Black"
+            finalString = finalString + " " + ` ${letter} `.bgBlack.white
         } else if(colorCode === "Y") {
-            finalString = finalString + " " + `  ${letter}  `.bgYellow.black
+            objIndex = abc.findIndex((obj => obj.letter === letterCopy));
+            abc[objIndex].color = "Yellow"
+            finalString = finalString + " " + ` ${letter} `.bgYellow.black
         } else {
-            finalString = finalString + " " + `  ${letter}  `.bgGreen.black
+            objIndex = abc.findIndex((obj => obj.letter === letterCopy));
+            abc[objIndex].color = "Green"
+            finalString = finalString + " " + ` ${letter} `.bgGreen.black
             gCount++;
         }
         i++;
     })
+    stats = stats + "\n" + finalString
     console.log(finalString);
+    compileKeyboard(abc)
+    console.log("\n")
+    let colorBoard1 = colorKeyboard.substring(0, 261)
+    let colorBoard2 = colorKeyboard.substring(261)
+    console.log(colorBoard1)
+    console.log(colorBoard2)
     turns++;
     if (gCount < 5 && turns < 6) {
         printTest = prompt("Enter word: ");
@@ -776,12 +920,14 @@ while (gCount < 5 && turns < 6) {
         code = ReturnHints(word.split(""), test);
     }
     else if (gCount == 5) {
-        console.log(" Great ".bgGreen);
+        console.log("Great");
+        console.log(stats)
     } 
     else if (turns == 6) {
         console.log("The correct word is: ")
-        console.log(" " + `  ${word[0]}  `.bgRed + " " + `  ${word[1]}  `.bgRed + " " + `  ${word[2]}  `.bgRed + " " + `  ${word[3]}  `.bgRed + " " + `  ${word[4]}  `.bgRed)
+        console.log(" " + ` ${word[0]} `.bgRed + " " + ` ${word[1]} `.bgRed + " " + ` ${word[2]} `.bgRed + " " + ` ${word[3]} `.bgRed + " " + ` ${word[4]} `.bgRed)
         console.log ("Better Luck Next Time!");
+        console.log(stats)
         again = prompt("Play again? (y/n)")
         if(again === "y"){
             clirdleGame()
