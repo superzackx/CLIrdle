@@ -16,7 +16,7 @@
 <a href="https://sourceforge.net/projects/clirdle/files/latest/download"><img alt="Download CLIrdle" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
 
 <h2 id="about">• About</h2>
-<p>We started this project for fun, to recreate the popular game. Now, we've worked to make this a proper application which functions exactly like Wordle. It is written in JavaScript. <br><br> Medium Post: <a href="https://medium.com/@yash.bhatnagar1919/crafting-clirdle-wordle-in-your-cli-7a3cb132975e">Link</a>. <br> Website: <a href="https://clirdle.yashbhatnagar.com/">Link</a>.</p>
+<p>We started this project for fun, to recreate the popular game. Now, we've worked to make this a proper application which functions exactly like Wordle. It is written in JavaScript. <br><br> Medium Post: <a href="https://medium.com/@yash.bhatnagar1919/crafting-clirdle-wordle-in-your-cli-7a3cb132975e">Link</a><br> Website: <a href="https://clirdle.yashbhatnagar.com/">Link</a></p>
 
 <h2 id="installation">• Installation</h2>
 <p>You can find the latest binary from releases. Please note that CLIrdle requires NodeJS 14 or above installed on your desktop.</p>
