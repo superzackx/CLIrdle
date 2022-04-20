@@ -1,11 +1,11 @@
 <a href="https://github.com/superzackx/clirdle"><img src="https://user-images.githubusercontent.com/58135394/163711903-24793ed8-0f8b-47a6-851f-f451502d4c3b.png"></a>
-
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/downloads/superzackx/clirdle/latest/total?label=Downloads&style=for-the-badge">
+<div align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/superzackx/clirdle?style=for-the-badge">
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/superzackx/clirdle?style=for-the-badge">
 <img alt="Website" src="https://img.shields.io/website?down_color=lightgray&down_message=offline&style=for-the-badge&up_color=blue&up_message=online&url=https%3A%2F%2Fclirdle.yashbhatnagar.com%2F">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/superzackx/clirdle?style=for-the-badge">
 <img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/superzackx/CLIrdle?style=for-the-badge">
+</div>
 
 <h3 align="center">Wordle as a CLI application</h3>
 <p align="center">
@@ -27,7 +27,7 @@
 <p>We started this project for fun, to recreate the popular game. Now, we've worked to make this a proper application which functions exactly like Wordle. It is written in JavaScript. <br><br> Medium Post: <a href="https://medium.com/@yash.bhatnagar1919/crafting-clirdle-wordle-in-your-cli-7a3cb132975e">Link</a><br> Website: <a href="https://clirdle.yashbhatnagar.com/">Link</a></p>
 
 <h2 id="installation">• Installation</h2>
-<p>You can find the latest binary from releases. Please note that CLIrdle requires NodeJS 14 or above installed on your desktop.</p>
+<p>You can find the latest binary from releases. Please note that CLIrdle requires NodeJS 14 or above installed on your desktop. You can also download CLIrdle from <a href="https://sourceforge.net/projects/clirdle/">SourceForge</a>.</p>
 
 <h2 id="usage">• Usage</h2>
 <p>CLIrdle works the same way Wordle does. Please read the rules <a href="https://www.nytimes.com/games/wordle/index.html">here</a>.</p>
