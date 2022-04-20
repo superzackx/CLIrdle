@@ -1,4 +1,12 @@
 <a href="https://github.com/superzackx/clirdle"><img src="https://user-images.githubusercontent.com/58135394/163711903-24793ed8-0f8b-47a6-851f-f451502d4c3b.png"></a>
+
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/downloads/superzackx/clirdle/latest/total?label=Downloads&style=for-the-badge">
+<img alt="GitHub" src="https://img.shields.io/github/license/superzackx/clirdle?style=for-the-badge">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/superzackx/clirdle?style=for-the-badge">
+<img alt="Website" src="https://img.shields.io/website?down_color=lightgray&down_message=offline&style=for-the-badge&up_color=blue&up_message=online&url=https%3A%2F%2Fclirdle.yashbhatnagar.com%2F">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/superzackx/clirdle?style=for-the-badge">
+<img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/superzackx/CLIrdle?style=for-the-badge">
+
 <h3 align="center">Wordle as a CLI application</h3>
 <p align="center">
   <a href="#about">About</a>
