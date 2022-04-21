@@ -6,7 +6,6 @@
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/superzackx/clirdle?style=for-the-badge">
 <img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/superzackx/CLIrdle?style=for-the-badge">
 </div>
-
 <h3 align="center">Wordle as a CLI application</h3>
 <p align="center">
   <a href="#about">About</a>
@@ -19,6 +18,11 @@
   •
   <a href="#credits">Credits</a>
 </p>
+
+<video width="400" controls>
+  <source src="./assets/CLIRdle%20Video.mov" type="video/mov">
+  Your browser does not support HTML video.
+</video>
 
 <a href="https://www.producthunt.com/posts/clirdle?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-clirdle" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=342221&theme=light" alt="CLIrdle - Wordle&#0032;from&#0032;your&#0032;command&#0032;line&#0046;&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://sourceforge.net/projects/clirdle/files/latest/download"><img alt="Download CLIrdle" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
