@@ -30,7 +30,7 @@
 ![CLIrdle demo gif](assets/CLIRdle_Video_yl7x0f.gif)
 
 <h2 id="installation">• Installation</h2>
-<p>You can find the latest binary from releases. Please note that CLIrdle requires NodeJS 14 or above installed on your desktop. You can also download CLIrdle from <a href="https://sourceforge.net/projects/clirdle/">SourceForge</a>.</p>
+<p>You can find the latest binary from releases. You can also download CLIrdle from <a href="https://sourceforge.net/projects/clirdle/">SourceForge</a>.</p>
 
 <h2 id="usage">• Usage</h2>
 <p>CLIrdle works the same way Wordle does. Please read the rules <a href="https://www.nytimes.com/games/wordle/index.html">here</a>.</p>
