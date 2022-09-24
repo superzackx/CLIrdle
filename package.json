@@ -1,0 +1,27 @@
+{
+  "name": "clirdle",
+  "version": "1.0.0",
+  "description": "Play wordle from your command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superzackx/CLIrdle.git"
+  },
+  "author": "Yash Bhatnagar and Gaurav Bhatnagar",
+  "license": "MIT",
+  "bin": {
+    "clirdle": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/superzackx/CLIrdle/issues"
+  },
+  "homepage": "https://github.com/superzackx/CLIrdle#readme",
+  "keywords": [
+    "wordle",
+    "games",
+    "terminal"
+  ]
+}

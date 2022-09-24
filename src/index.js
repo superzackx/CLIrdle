@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+const [,, ...args] = process.argv;
 const prompt = require("prompt-sync")({ sigint: true });
 const colors = require('colors');
 let list = [
@@ -723,7 +725,7 @@ let list = [
   'osier', 'roble', 'rumba', 'biffy', 'pupal'
 ]
 
-exports.clirdleGame = function(){
+function clirdleGame(){
 
 let word = list[Math.floor(Math.random() * list.length)];
 console.log("   ____ _     ___         _ _      \r\n  \/ ___| |   |_ _|_ __ __| | | ___ \r\n | |   | |    | || \'__\/ _` | |\/ _ \\\r\n | |___| |___ | || | | (_| | |  __\/\r\n  \\____|_____|___|_|  \\__,_|_|\\___|\n".rainbow)
