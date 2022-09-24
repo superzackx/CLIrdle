@@ -13,7 +13,7 @@
   "author": "Yash Bhatnagar and Gaurav Bhatnagar",
   "license": "MIT",
   "bin": {
-    "clirdle": "./index.js"
+    "clirdle": "src/index.js"
   },
   "bugs": {
     "url": "https://github.com/superzackx/CLIrdle/issues"
