@@ -1,6 +1,6 @@
 {
   "name": "clirdle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Play wordle from your command line",
   "main": "index.js",
   "scripts": {
